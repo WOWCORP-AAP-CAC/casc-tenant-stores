@@ -1,0 +1,11 @@
+# Engine-owned lifecycle marker. Do not edit tenant identity fields in place;
+# use the documented tenant identity/repository migration procedure instead.
+aap_organization: stores
+onboarding_mode: greenfield
+repo_mode: create
+repo_visibility: private
+repository: casc-tenant-stores
+scaffold_version: 3
+team_name: Stores Automation
+tenant_id: stores
+tenant_scm_org: WOWCORP-AAP-CAC
