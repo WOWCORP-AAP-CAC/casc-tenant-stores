@@ -22,7 +22,6 @@ jobs:
       control_branch: main
       dispatcher_jt_name: jt-platform-casc_dispatcher
       bootstrap_jt_name: jt-platform-bootstrap_tenant
-      poll_timeout_minutes: 0
 
     secrets:
       AAP_ENV_TARGETS_JSON: ${{ secrets.AAP_ENV_TARGETS_JSON }}
