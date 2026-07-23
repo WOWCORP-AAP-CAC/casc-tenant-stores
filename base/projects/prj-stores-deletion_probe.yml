@@ -1,0 +1,6 @@
+---
+controller_projects:
+  - name: prj-stores-deletion_probe
+    description: "Unsupported explicit deletion declaration"
+    state: absent
+    organization: stores
