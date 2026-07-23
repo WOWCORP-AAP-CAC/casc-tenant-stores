@@ -1,0 +1,11 @@
+---
+controller_projects:
+  - name: prj-stores-deletion_probe
+    description: "Order 0 deletion-safety probe — managed then removed from YAML"
+    scm_type: git
+    scm_url: "https://github.com/WOWCORP-AAP-CAC/casc-tenant-stores.git"
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_update_on_launch: false
+    organization: stores
