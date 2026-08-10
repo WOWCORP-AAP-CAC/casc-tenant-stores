@@ -1,0 +1,10 @@
+---
+# Example inventories configuration — rename to .yml to activate.
+# This file belongs in base/inventories/ and applies to ALL environments.
+# For environment-specific overrides, place a .yml file in <env>/inventories/.
+# Full field reference: https://github.com/WOWCORP-AAP-CAC/aap-casc-engine/blob/main/docs/RESOURCE_CATALOG.md#controller_inventories
+controller_inventories:
+  - name: inv-stores-src-dev-example
+    description: "Example inventory — replace with your inventory source"
+    organization: "stores"
+    kind: ""
