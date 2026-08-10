@@ -1,0 +1,9 @@
+---
+controller_projects:
+  - name: prj-stores-hello_world
+    organization: stores
+    scm_type: git
+    scm_url: https://github.com/ansible/ansible-tower-samples
+    scm_branch: master
+    scm_update_on_launch: false
+    state: present
